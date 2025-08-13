@@ -1,0 +1,31 @@
+# pyproject.toml
+
+# Defines the build system and its requirements.
+# This tells pip it needs 'hatchling' to build the project.
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Defines the core metadata for your project.
+# This is what will appear on PyPI.
+[project]
+name = "synapse-ai-nuralnexus" # Unique name for PyPI
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="your.email@example.com" },
+]
+description = "A Pythonic framework for building and executing Cognitive Graphs with LLMs."
+readme = "README.md" # Specifies the README file
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# (Optional) You can define project URLs here
+[project.urls]
+"Homepage" = "https://github.com/your_username/synapse_project"
+"Bug Tracker" = "https://github.com/your_username/synapse_project/issues"
