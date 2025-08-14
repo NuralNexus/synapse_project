@@ -1,4 +1,3 @@
-# synapse_project
 
 
 ---
